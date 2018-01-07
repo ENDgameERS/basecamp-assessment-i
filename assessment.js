@@ -52,5 +52,5 @@ function sum(total, num) {
 
 function greeter(name, age){
   return "Hi! I am " + name + " and I am " + age + " years old"
-  
-greeter(myName, 32)// CODE HERE
+}
+greeter(myName, 32);// CODE HERE
