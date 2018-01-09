@@ -25,9 +25,9 @@ var notHakeem = myName != "Hakeem Olajuwon" // CODE HERE
 // #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The canDrive variable will be set by the unit test so do not adjust it.
 var age = 18;
 var canDrive;
-
-
-if(age > 18) canDrive = true// CODE HERE
+if (age > 16) {
+  canDrive = true;
+}// CODE HERE
 
 // #8 Create an if statement inside of the responseCreator function that sets the colorResponse variable value based off of a passed in value. The param value passed in will be added in the unit test. If the param value is 'green' set colorResponse variable to 'Green is okay'. If the param value is 'red' set reponse variable to 'I heart red'. Otherwise set the colorResponse variable to 'What is your favorite color?'. Make sure to return the colorResponse variable at the end once it has been properly set.
 
@@ -44,13 +44,12 @@ var responseCreator = function(param){
 
 // #9 Create a function called 'sum' that takes in a parameter and returns the sum of that parameter.
 
-function sum(total, num) {
-  return total + num;
+function sum(param) {
+  return param + param;
 }
 
 // #10 Create a function called greeter that takes in two parameters, name(a string) and number(a number). Have greeter return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values.
 
-function greeter(name, age){
-  return "Hi! I am " + name + " and I am " + age + " years old"
-}
-greeter(myName, 32);// CODE HERE
+function greeter(name, num) {
+  return "Hi! I'm " + name + " and I am " + num + " years old";
+}// CODE HERE
